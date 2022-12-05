@@ -16,6 +16,6 @@ jobs:
     - name:  FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: ftp://109.234.162.216
-        username: makussaaccount
+        server: ftp.xmud6272.odns.fr
+        username: makussaaccount@makussa.org
         password: ${{ secrets.ftp_password }}
